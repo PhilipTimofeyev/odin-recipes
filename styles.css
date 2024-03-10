@@ -1,7 +1,12 @@
-h1 {
+
+.title {
 	text-align: center;
-	font-family: "Brush Script MT";
-	font-size: 72px;
+	font-family: "Times";
+	background: brown;
+	font-size: 40px;
+	width: 40%;
+	border: 7px solid black;
+	margin: 0px auto 40px;
 }
 
 h2 {
@@ -15,36 +20,63 @@ body {
 	background: #f5d8b5;
 }
 
-.link {
-	text-align: center;
-	font-size: 42px;
-	color: black;
-	font-family: "Georgia";
-	font-style: italic;
+.descriptions {
+	width: 20%;
+	border: dotted;
+}
+
+.links {
+margin: auto;
+text-align: center;
 }
 
 p {
 	font-size: 24px;
 	text-align: center;
+	width: 30%;
+	margin: auto;
 }
 
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 20px;
+}
+
+.button-container {
+  background: #e3f4ff;
+}
+
+li {
+	padding: 5px;
+}
+
+button {
+  background: white;
+  border: 3px solid #eee;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 
 .ingredients {
 	list-style-position: inside;
-	text-align: center;
+	text-align: left;
 	font-size: 24px;
 	color: black;
+	border: 5px solid black;
+	width: 20%;
+	margin: auto;
+	padding: 20px;
 }
 
 .directions {
 	list-style-position: inside;
-	text-align: center;
+	text-align: left;
 	font-size: 24px;
 	color: black;
+	width: 40%;
+	margin: auto;
 }
